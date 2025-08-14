@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { PlayCircle, Target, Users } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-hero-gradient overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(236,72,153,0.1)_0%,transparent_50%)]" />
@@ -27,11 +30,21 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-6"
+              onClick={() => navigate("/interview")}
+            >
               <PlayCircle className="mr-2 h-5 w-5" />
               Start Mock Interview
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-muted-foreground text-foreground hover:bg-accent">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="text-lg px-8 py-6 border-muted-foreground text-foreground hover:bg-accent"
+              onClick={() => navigate("/demo")}
+            >
               View Demo
             </Button>
           </div>

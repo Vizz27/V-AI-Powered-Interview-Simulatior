@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, UserCheck, MessageCircle, BarChart } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const HowItWorks = () => {
+  const navigate = useNavigate();
+  
   const steps = [
     {
       icon: UserCheck,
@@ -66,7 +69,7 @@ const HowItWorks = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button variant="hero" size="lg">
+          <Button variant="hero" size="lg" onClick={() => navigate("/interview")}>
             Start Your First Interview
           </Button>
         </div>

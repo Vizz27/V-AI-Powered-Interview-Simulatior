@@ -2,8 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mic, Send, Volume2 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const InterviewDemo = () => {
+  const navigate = useNavigate();
+  
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
@@ -110,7 +113,7 @@ const InterviewDemo = () => {
           </Card>
           
           <div className="text-center mt-8">
-            <Button variant="hero" size="lg">
+            <Button variant="hero" size="lg" onClick={() => navigate("/demo")}>
               Try Interactive Demo
             </Button>
           </div>
