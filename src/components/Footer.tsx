@@ -29,9 +29,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-foreground mb-4">Other Projects</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://zoozo-resume-reviewer.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                  AI Resume Reviewer
-                </a>
+                <a href="https://zoozo-resume-reviewer.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">ZooZo AI Resume Reviewer</a>
               </li>
             </ul>
           </div>
