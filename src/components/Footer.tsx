@@ -13,22 +13,28 @@ const Footer = () => {
               Get personalized feedback and land your dream job with confidence.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/vizz" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/Vizz27" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:vishwanath27ramnath@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
           </div>
           
-          
+          <div>
+            <h3 className="text-lg font-semibold text-foreground mb-4">Other Projects</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="https://zoozo-resume-reviewer.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  AI Resume Reviewer
+                </a>
+              </li>
+            </ul>
+          </div>
           
           
         </div>
