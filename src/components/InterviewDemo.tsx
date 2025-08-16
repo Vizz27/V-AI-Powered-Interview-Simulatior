@@ -39,7 +39,7 @@ const InterviewDemo = () => {
               <div className="space-y-6">
                 {/* AI Question */}
                 <div className="flex space-x-3">
-                  <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 bg-slate-50">
                     <img src="/lovable-uploads/2ac94e5b-f5c3-401c-8f8b-246e5e2feec9.png" alt="AI" className="w-4 h-4" />
                   </div>
                   <div className="bg-muted/50 rounded-lg p-4 flex-1">

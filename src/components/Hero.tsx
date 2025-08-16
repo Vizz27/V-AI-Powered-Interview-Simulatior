@@ -33,19 +33,19 @@ const Hero = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border/50">
+            <div className="backdrop-blur-sm rounded-xl p-6 border border-border/50 bg-slate-50">
               <Target className="h-8 w-8 text-primary mb-4 mx-auto" />
               <h3 className="text-lg font-semibold text-foreground mb-2">AI-Powered Feedback</h3>
               <p className="text-muted-foreground">Get instant, detailed analysis of your responses</p>
             </div>
             
-            <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border/50">
+            <div className="backdrop-blur-sm rounded-xl p-6 border border-border/50 bg-slate-50">
               <Users className="h-8 w-8 text-primary mb-4 mx-auto" />
               <h3 className="text-lg font-semibold text-foreground mb-2">Role-Specific Questions</h3>
               <p className="text-muted-foreground">Practice with questions tailored to your field</p>
             </div>
             
-            <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border/50">
+            <div className="backdrop-blur-sm rounded-xl p-6 border border-border/50 bg-slate-50">
               <PlayCircle className="h-8 w-8 text-primary mb-4 mx-auto" />
               <h3 className="text-lg font-semibold text-foreground mb-2">24/7 Availability</h3>
               <p className="text-muted-foreground">Practice anytime, anywhere at your own pace</p>
