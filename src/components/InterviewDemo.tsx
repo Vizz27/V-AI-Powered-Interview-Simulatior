@@ -26,8 +26,8 @@ const InterviewDemo = () => {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                     <img 
-                      src="/lovable-uploads/5d14997b-75ca-4cc4-840a-9000606abb6c.png" 
-                      alt="ZooZo AI" 
+                      src="/lovable-uploads/2ac94e5b-f5c3-401c-8f8b-246e5e2feec9.png" 
+                      alt="V AI" 
                       className="w-6 h-6"
                     />
                   </div>
@@ -48,7 +48,7 @@ const InterviewDemo = () => {
                 <div className="flex space-x-3">
                   <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <img 
-                      src="/lovable-uploads/5d14997b-75ca-4cc4-840a-9000606abb6c.png" 
+                      src="/lovable-uploads/2ac94e5b-f5c3-401c-8f8b-246e5e2feec9.png" 
                       alt="AI" 
                       className="w-4 h-4"
                     />

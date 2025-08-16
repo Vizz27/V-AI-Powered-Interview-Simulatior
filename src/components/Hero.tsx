@@ -13,8 +13,8 @@ const Hero = () => {
         <div className="animate-fade-in">
           <div className="flex justify-center mb-8">
             <img 
-              src="/lovable-uploads/5d14997b-75ca-4cc4-840a-9000606abb6c.png" 
-              alt="ZooZo AI Interview Bot" 
+              src="/lovable-uploads/2ac94e5b-f5c3-401c-8f8b-246e5e2feec9.png" 
+              alt="V AI Interview Bot" 
               className="w-24 h-24 animate-glow"
             />
           </div>

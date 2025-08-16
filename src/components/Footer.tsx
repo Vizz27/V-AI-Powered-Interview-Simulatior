@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <img src="/lovable-uploads/5d14997b-75ca-4cc4-840a-9000606abb6c.png" alt="ZooZo AI Interview Bot" className="w-8 h-8" />
-              <span className="text-xl font-bold text-foreground">ZooZo</span>
+              <img src="/lovable-uploads/2ac94e5b-f5c3-401c-8f8b-246e5e2feec9.png" alt="V AI Interview Bot" className="w-8 h-8" />
+              <span className="text-xl font-bold text-foreground">V</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Master your interview skills with AI-powered practice sessions. 
@@ -29,7 +29,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-foreground mb-4">Other Projects</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://zoozo-resume-reviewer.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">ZooZo AI Resume Reviewer</a>
+                <a href="https://zoozo-resume-reviewer.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">V AI Resume Reviewer</a>
               </li>
             </ul>
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-border/50 mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 ZooZo AI Interview Bot. All rights reserved.</p>
+          <p>&copy; 2024 V AI Interview Bot. All rights reserved.</p>
         </div>
       </div>
     </footer>;

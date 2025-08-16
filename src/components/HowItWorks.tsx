@@ -31,7 +31,7 @@ const HowItWorks = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            How <span className="text-primary">ZooZo</span> Works
+            How <span className="text-primary">V</span> Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Get started with your AI-powered interview practice in just three simple steps
