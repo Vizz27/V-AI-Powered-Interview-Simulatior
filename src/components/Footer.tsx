@@ -32,7 +32,7 @@ const Footer = () => {
                 
               </li>
               <li>
-                <a href="https://v-resume-reviewer.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">V Resume Reviewer</a>
+                <a href="https://v-ai-powered-resume-reviewer.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">V Resume Reviewer</a>
               </li>
             </ul>
           </div>
